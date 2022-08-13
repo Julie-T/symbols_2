@@ -23,6 +23,6 @@ export default class Team2 {
   static* iterator() {
     i += 1;
     yield arr[i];
-    return arr[arr.length - 1];
+    return arr[i];
   }
 }
